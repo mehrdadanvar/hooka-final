@@ -10,7 +10,7 @@ for(i in required.packaes){
     }
 }
 lapply(required.packaes, require, character.only = TRUE)
-setwd("/home/mehrdad/Desktop/firstclone/hooka-linux/")
+setwd("~/Desktop/hooka-final/")
 #### importing the source excel spread sheet and constructing names----
 hooka <- read_excel(path = "./raw/06-06-2021.xlsx"
                     ,sheet = "Results",col_names = T)
