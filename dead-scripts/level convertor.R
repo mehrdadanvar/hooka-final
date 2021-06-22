@@ -57,7 +57,7 @@ which(transition=="AK") # cities end column 37
 test[str_which(test,"[:alpha:]")] <- NA
 test[test=="4444"]<-NA
 test[test=="6262"]<-NA
-
+#this line was added from alpine linux
 Encoding(test)
 test %>% as.factor() %>% levels()
 helper <- data.frame(v=test,e=Encoding(test))
